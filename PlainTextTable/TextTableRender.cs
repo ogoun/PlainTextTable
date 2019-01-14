@@ -144,12 +144,17 @@ namespace PlainTextTable
         private static IEnumerable<string> Split(string str, int chunkSize, int leftPad, int rightPad)
         {
             if (str == null) return new string[1] { string.Empty };
-            while ((chunkSize - (leftPad + rightPad)) < 5 && (leftPad > 0 || rightPad > 0))
+            var min_text_width = TextTableRenderOptions.MIN_TEXT_WIDTH > 1 ? TextTableRenderOptions.MIN_TEXT_WIDTH : 1;
+            while ((chunkSize - (leftPad + rightPad)) <= TextTableRenderOptions.MIN_TEXT_WIDTH && (leftPad > 0 || rightPad > 0))
             {
-                if (leftPad > 0)
+                if (leftPad > rightPad)
+                {
                     leftPad--;
-                if (rightPad > 0)
+                }
+                else
+                {
                     rightPad--;
+                }
             }
             var size = chunkSize - leftPad - rightPad;
             var add = str.Length % size > 0 ? 1 : 0;

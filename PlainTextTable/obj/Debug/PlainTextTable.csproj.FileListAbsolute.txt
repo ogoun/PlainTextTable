@@ -1,0 +1,5 @@
+P:\Desktop\DocStream\Sources\git\PlainTextTable\PlainTextTable\bin\Debug\PlainTextTable.dll
+P:\Desktop\DocStream\Sources\git\PlainTextTable\PlainTextTable\bin\Debug\PlainTextTable.pdb
+P:\Desktop\DocStream\Sources\git\PlainTextTable\PlainTextTable\obj\Debug\PlainTextTable.csprojResolveAssemblyReference.cache
+P:\Desktop\DocStream\Sources\git\PlainTextTable\PlainTextTable\obj\Debug\PlainTextTable.dll
+P:\Desktop\DocStream\Sources\git\PlainTextTable\PlainTextTable\obj\Debug\PlainTextTable.pdb

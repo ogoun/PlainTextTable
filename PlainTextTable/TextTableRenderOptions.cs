@@ -2,10 +2,12 @@
 {
     public class TextTableRenderOptions
     {
+        public readonly static int MIN_TEXT_WIDTH = 2;
+
         public int PaddingLeft = 1;
         public int PaddingRight = 1;
         public int PaddingTop = 0;
-        public int PaddingBottom = 0;
+        public int PaddingBottom = 0;        
 
         private int _maxCellWidth = -1;
         private int _maxTableWidth = -1;

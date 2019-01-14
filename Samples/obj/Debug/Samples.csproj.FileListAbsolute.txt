@@ -1,0 +1,8 @@
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\bin\Debug\Samples.exe.config
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\bin\Debug\Samples.exe
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\bin\Debug\Samples.pdb
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\bin\Debug\PlainTextTable.dll
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\bin\Debug\PlainTextTable.pdb
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\obj\Debug\Samples.csprojResolveAssemblyReference.cache
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\obj\Debug\Samples.exe
+P:\Desktop\DocStream\Sources\git\PlainTextTable\Samples\obj\Debug\Samples.pdb
